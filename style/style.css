@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
+}
+body{
+    height: 100vh;
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pierre, .feuille, .ciseaux{
+    border: 1px solid black;
+    padding: 25px;
+    background-color: rgba(41, 37, 37, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fa-solid{
+    font-size: 80px;
+    color: forestgreen;
+}
+.resultat{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: rgb(201, 195, 187);
+    margin: 80px auto;
+}
